@@ -1,0 +1,73 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  background-image:url(background_weather\ forecast.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.widget{
+  position: relative;
+  width: 800px;
+  height: 300px;
+  margin: 150px auto;
+  border: 2px solid yellow;
+  padding: 35px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+  border-radius: 30px;
+  background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.data{
+  font-size: 30px;
+  position: relative;
+  left:530px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top: 170px;
+  color: floralwhite;
+}
+
+#city{
+  font-size: 40px;
+  position: relative;
+  top: -175px;
+  right: 20px;
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#temperature{
+  font-size: 100px;
+  color: black;
+  position: relative;
+  top: -130px;
+  left: 210px;
+  font-family: ui-sans-serif; 
+}
+
+#icon{
+  position: relative;
+  top: -240px;
+  width: 210px;
+  right: 40px;
+}
+
+#climate_desc{
+  position: relative;
+  top: -270px;
+  right: -10px;
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: antiquewhite;
+}
+
+#date{
+  position: relative;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top: -615px;
+  left: 510px;
+  color: aliceblue;
+}
